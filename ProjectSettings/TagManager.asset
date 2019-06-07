@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Item
+  - Interactable
+  - NPC
+  - Arrow
   layers:
   - Default
   - TransparentFX
@@ -14,11 +19,11 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Path
+  - Dynamic
+  - 'Sun '
+  - Projectile
   - 
   - 
   - 

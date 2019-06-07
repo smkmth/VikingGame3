@@ -1224,6 +1224,30 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1543740496}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &724305206 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114959059570449406, guid: 4ab30e61c3a03fe48bdef20ecc318a65,
+    type: 3}
+  m_PrefabInstance: {fileID: 1543740496}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31d8320e609e0a498859740a5370680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &724305207 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114508589204890348, guid: 4ab30e61c3a03fe48bdef20ecc318a65,
+    type: 3}
+  m_PrefabInstance: {fileID: 1543740496}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4fb0a692d5bae4488148493086b6ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &724305208 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114039172181656874, guid: 4ab30e61c3a03fe48bdef20ecc318a65,
@@ -3544,7 +3568,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1571617097909224, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
       propertyPath: m_Name
-      value: SceneManager (1)
+      value: SceneManager
       objectReference: {fileID: 0}
     - target: {fileID: 4025816441235752, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3703,9 +3727,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1029737870497516, guid: 9c1a96439819b664a8cf13cf4871ebdb,
         type: 3}
+    - target: {fileID: 4535329325660168, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1712499051173124, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4231572621691214, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358896744728196, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358896744728196, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 4758592743959630, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3714,6 +3754,10 @@ PrefabInstance:
     - target: {fileID: 1995546547686812, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074621231502126, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 114424809056003954, guid: 4ab30e61c3a03fe48bdef20ecc318a65,
         type: 3}
@@ -3996,6 +4040,11 @@ PrefabInstance:
       propertyPath: craftButton
       value: 
       objectReference: {fileID: 569533792}
+    - target: {fileID: 114798973832202224, guid: 4ab30e61c3a03fe48bdef20ecc318a65,
+        type: 3}
+      propertyPath: villageManager
+      value: 
+      objectReference: {fileID: 724305206}
     - target: {fileID: 1748640446289376, guid: 4ab30e61c3a03fe48bdef20ecc318a65, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4013,6 +4062,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23967045734231500, guid: 4ab30e61c3a03fe48bdef20ecc318a65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fab1f1776908c39479a6a20bcf36827f, type: 2}
+    - target: {fileID: 114287021156373866, guid: 4ab30e61c3a03fe48bdef20ecc318a65,
+        type: 3}
+      propertyPath: craftlist
+      value: 
+      objectReference: {fileID: 724305207}
     - target: {fileID: 95011607968314424, guid: 4ab30e61c3a03fe48bdef20ecc318a65,
         type: 3}
       propertyPath: m_Avatar

@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: New Material
   m_Shader: {fileID: 4800000, guid: 99beca54b5b93be45befd9bc37381148, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _NORMALMAP_TANGENT_SPACE _SPECGLOSSMAP
@@ -135,8 +136,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_717BC39_Texture:
+        m_Texture: {fileID: 2800000, guid: 9827f5d01a9b26a499af0b572080b807, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_72437BB6_Texture:
+        m_Texture: {fileID: 2800000, guid: 0e15f66d91efdb941a50207778c82a92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_7AD491E6_Texture:
         m_Texture: {fileID: 2800000, guid: 0e15f66d91efdb941a50207778c82a92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7D4A5F59_Texture:
+        m_Texture: {fileID: 2800000, guid: 657fe2a32d357f445b99e0686d337c04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_97038271_Texture:
@@ -157,6 +170,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_CBCF4210_Texture:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_D377A5A4_Texture:
+        m_Texture: {fileID: 2800000, guid: 793fa89f79561414c9fa0329050367f7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_D7FB5FF4_Texture:
